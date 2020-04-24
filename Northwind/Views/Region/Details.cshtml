@@ -1,0 +1,30 @@
+﻿@model Northwind.Models.RegionModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>RegionModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RegionId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RegionId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RegionDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RegionDescription)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RegionId }) |
+    <a asp-action="Index">Back to List</a>
+</div>
