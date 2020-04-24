@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="529ab686-8d25-47c6-a0db-688d5202564d" name="amitkumar24@AMIT3153368-01 2020-04-24 21:18:42" runUser="NAGARRO\amitkumar24" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-04-24T21:18:42.2624151+05:30" queuing="2020-04-24T21:18:42.2624169+05:30" start="2020-04-24T21:18:38.9827566+05:30" finish="2020-04-24T21:18:42.2756890+05:30" />
+  <TestSettings name="default" id="436963a5-a4f6-4163-b935-d83947281a02">
+    <Deployment runDeploymentRoot="amitkumar24_AMIT3153368-01_2020-04-24_21_18_42" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="72a70879-7b6c-42a3-9369-33a92589e447" testId="3f3fed97-9997-b1d4-e74b-370af96f0c41" testName="NorthWindWithDITest.RegionTests.DetailsWithReturnOfOneRegions" computerName="AMIT3153368-01" duration="00:00:00.1553274" startTime="2020-04-24T21:18:42.1042896+05:30" endTime="2020-04-24T21:18:42.1043957+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72a70879-7b6c-42a3-9369-33a92589e447" />
+    <UnitTestResult executionId="f4adff4b-b01c-4a3a-be2f-732dbe935616" testId="c4c3c6b3-147d-018d-c7b3-3a2c7f0cd5d3" testName="NorthWindWithDITest.RegionTests.Add_ReturnsBadRequestResult_WhenModelStateIsInvalid" computerName="AMIT3153368-01" duration="00:00:00.0025764" startTime="2020-04-24T21:18:42.1103034+05:30" endTime="2020-04-24T21:18:42.1103044+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4adff4b-b01c-4a3a-be2f-732dbe935616" />
+    <UnitTestResult executionId="fa00a98b-8483-4a20-9083-0268fd85635e" testId="5abf10a8-b878-ecea-bf84-6fbc7188b3cd" testName="NorthWindWithDITest.RegionTests.IndexWithReturnListOfAllRegions" computerName="AMIT3153368-01" duration="00:00:00.0036941" startTime="2020-04-24T21:18:42.1091336+05:30" endTime="2020-04-24T21:18:42.1091344+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa00a98b-8483-4a20-9083-0268fd85635e" />
+    <UnitTestResult executionId="9ef2edca-1f78-4c51-97ce-81f26e53e9d0" testId="86d41e73-9d3a-46ce-8b3a-480b19b10872" testName="NorthWindWithDITest.RegionTests.Add_ReturnsReturnsRedirect_WhenModelStateIsvalid" computerName="AMIT3153368-01" duration="00:00:00.0096980" startTime="2020-04-24T21:18:42.1200851+05:30" endTime="2020-04-24T21:18:42.1200873+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ef2edca-1f78-4c51-97ce-81f26e53e9d0" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="NorthWindWithDITest.RegionTests.Add_ReturnsBadRequestResult_WhenModelStateIsInvalid" storage="d:\vs-code\northwind\northwindwithditest\bin\debug\netcoreapp3.1\northwindwithditest.dll" id="c4c3c6b3-147d-018d-c7b3-3a2c7f0cd5d3">
+      <Execution id="f4adff4b-b01c-4a3a-be2f-732dbe935616" />
+      <TestMethod codeBase="D:\VS-Code\Northwind\NorthWindWithDITest\bin\Debug\netcoreapp3.1\NorthWindWithDITest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NorthWindWithDITest.RegionTests" name="NorthWindWithDITest.RegionTests.Add_ReturnsBadRequestResult_WhenModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="NorthWindWithDITest.RegionTests.Add_ReturnsReturnsRedirect_WhenModelStateIsvalid" storage="d:\vs-code\northwind\northwindwithditest\bin\debug\netcoreapp3.1\northwindwithditest.dll" id="86d41e73-9d3a-46ce-8b3a-480b19b10872">
+      <Execution id="9ef2edca-1f78-4c51-97ce-81f26e53e9d0" />
+      <TestMethod codeBase="D:\VS-Code\Northwind\NorthWindWithDITest\bin\Debug\netcoreapp3.1\NorthWindWithDITest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NorthWindWithDITest.RegionTests" name="NorthWindWithDITest.RegionTests.Add_ReturnsReturnsRedirect_WhenModelStateIsvalid" />
+    </UnitTest>
+    <UnitTest name="NorthWindWithDITest.RegionTests.DetailsWithReturnOfOneRegions" storage="d:\vs-code\northwind\northwindwithditest\bin\debug\netcoreapp3.1\northwindwithditest.dll" id="3f3fed97-9997-b1d4-e74b-370af96f0c41">
+      <Execution id="72a70879-7b6c-42a3-9369-33a92589e447" />
+      <TestMethod codeBase="D:\VS-Code\Northwind\NorthWindWithDITest\bin\Debug\netcoreapp3.1\NorthWindWithDITest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NorthWindWithDITest.RegionTests" name="NorthWindWithDITest.RegionTests.DetailsWithReturnOfOneRegions" />
+    </UnitTest>
+    <UnitTest name="NorthWindWithDITest.RegionTests.IndexWithReturnListOfAllRegions" storage="d:\vs-code\northwind\northwindwithditest\bin\debug\netcoreapp3.1\northwindwithditest.dll" id="5abf10a8-b878-ecea-bf84-6fbc7188b3cd">
+      <Execution id="fa00a98b-8483-4a20-9083-0268fd85635e" />
+      <TestMethod codeBase="D:\VS-Code\Northwind\NorthWindWithDITest\bin\Debug\netcoreapp3.1\NorthWindWithDITest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="NorthWindWithDITest.RegionTests" name="NorthWindWithDITest.RegionTests.IndexWithReturnListOfAllRegions" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3f3fed97-9997-b1d4-e74b-370af96f0c41" executionId="72a70879-7b6c-42a3-9369-33a92589e447" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4c3c6b3-147d-018d-c7b3-3a2c7f0cd5d3" executionId="f4adff4b-b01c-4a3a-be2f-732dbe935616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5abf10a8-b878-ecea-bf84-6fbc7188b3cd" executionId="fa00a98b-8483-4a20-9083-0268fd85635e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86d41e73-9d3a-46ce-8b3a-480b19b10872" executionId="9ef2edca-1f78-4c51-97ce-81f26e53e9d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.1)&#xD;
+[xUnit.net 00:00:02.14]   Discovering: NorthWindWithDITest&#xD;
+[xUnit.net 00:00:02.18]   Discovered:  NorthWindWithDITest&#xD;
+[xUnit.net 00:00:02.19]   Starting:    NorthWindWithDITest&#xD;
+[xUnit.net 00:00:02.44]   Finished:    NorthWindWithDITest&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
