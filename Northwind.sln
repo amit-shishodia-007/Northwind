@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind", "Northwind.csproj", "{2BD0C180-23D3-4A75-B86A-89AD3778E804}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind", "Northwind\Northwind.csproj", "{2BD0C180-23D3-4A75-B86A-89AD3778E804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindWithDITest", "..\NorthWindWithDITest\NorthWindWithDITest.csproj", "{F0D9E97A-F781-415E-8BB7-CD1306114990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWindWithDITest", "NorthWindWithDITest\NorthWindWithDITest.csproj", "{F0D9E97A-F781-415E-8BB7-CD1306114990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git credentialsId: 'b92a2c28-2693-4fc1-8490-49c7db00ed8a', 
-                url: 'https://github.com/amit-shishodia-007/Northwind;', 
+                url: 'git@github.com:amit-shishodia-007/Northwind.git', 
                 branch: 'master'
             }
         }
