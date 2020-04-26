@@ -142,3 +142,4 @@ D:\VS-Code\Northwind\Northwind\obj\Debug\netcoreapp3.1\Northwind.Views.pdb
 D:\VS-Code\Northwind\Northwind\obj\Debug\netcoreapp3.1\Northwind.csproj.CopyComplete
 D:\VS-Code\Northwind\Northwind\obj\Debug\netcoreapp3.1\Northwind.dll
 D:\VS-Code\Northwind\Northwind\obj\Debug\netcoreapp3.1\Northwind.pdb
+D:\VS-Code\Northwind\Northwind\obj\Debug\netcoreapp3.1\Northwind.csprojAssemblyReference.cache
