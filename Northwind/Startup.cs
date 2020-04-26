@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,7 +27,7 @@ namespace Northwind
         public void ConfigureServices(IServiceCollection services)
         {
            
-            services.AddDbContext<NorthwindContext>();
+            services.AddDbContext<NorthwindContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IRegionRepository, RegionRepository>();
             services.AddTransient<IRegionService, RegionService>();
             services.AddControllersWithViews();

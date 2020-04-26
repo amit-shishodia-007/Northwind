@@ -1,13 +1,17 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 namespace Northwind.Database
 {
     public partial class NorthwindContext : DbContext
     {
+        private readonly IConfiguration _configuration;
+
         public NorthwindContext()
         {
+           
         }
 
         public NorthwindContext(DbContextOptions<NorthwindContext> options)
@@ -45,14 +49,7 @@ namespace Northwind.Database
         public virtual DbSet<Suppliers> Suppliers { get; set; }
         public virtual DbSet<Territories> Territories { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=AMIT3153368-01;Initial Catalog=Northwind; User Id=sa; Password=Off!ce@Naga18");
-            }
-        }
+      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

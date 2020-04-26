@@ -28,7 +28,7 @@ namespace Northwind.Controllers
                 var allRegions = _regionService.GetAll();
                 return View(allRegions);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return View("Error");
             }

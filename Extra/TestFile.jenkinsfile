@@ -6,19 +6,19 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'b92a2c28-2693-4fc1-8490-49c7db00ed8a', 
-                url: 'git@github.com:amit-shishodia-007/Northwind.git', 
+                git credentialsId: '7132a176-1c43-4666-b5d7-e9fca93a6d76', 
+                url: 'https://github.com/amit-shishodia-007/Northwind',
                 branch: 'master'
             }
         }
         stage('Build') {
             steps {
-                bat 'dotnet build Northwind\\Northwind\\Northwind.sln –configuration Release'
+                bat 'dotnet build Northwind\\Northwind.csproj --configuration Release'
             }
         }
         stage('Test') {
             steps {
-                bat 'dotnet test Northwind\\NorthWindWithDITest\\NorthWindWithDITest.Tests.csproj –logger:trx'
+                bat 'dotnet test NorthWindWithDITest\\NorthWindWithDITest.csproj "--logger:trx;LogFileName=NorthWindWithDITestResults.trx"'
             }
         }
     }
